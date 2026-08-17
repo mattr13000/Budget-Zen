@@ -7,10 +7,27 @@
 
 import Foundation
 
+@Observable
 class SharedViewModel {
-    private var transactions: [Transaction]
+    var transactions: [Transaction]
     
     init() {
-        
+        transactions = Transaction.transactions
+    }
+    
+    var transactionTotal: Int {
+        transactions.reduce(0){$0 + $1.amount}
+    }
+    
+    var spendingsTotal: Int {
+        transactions.filter({$0.type == .expense}).reduce(0){$0 + $1.amount}
+    }
+    
+    var incomesTotal: Int {
+        transactions.filter({$0.type == .income}).reduce(0){$0 + $1.amount}
+    }
+    
+    var transactionsCount: Int {
+        transactions.count
     }
 }
