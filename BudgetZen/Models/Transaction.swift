@@ -10,7 +10,8 @@ import Foundation
 struct Transaction: Identifiable {
     var id: UUID = UUID()
     var title: String
-    var category: String
+    var amount: Int
+    var category: Category
     var type: String
     var date: String
 }
