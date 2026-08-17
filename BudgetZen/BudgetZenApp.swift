@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct BudgetZenApp: App {
+    @State var sharedVM: SharedViewModel = SharedViewModel()
     var body: some Scene {
         WindowGroup {
             TabBarView()
+                .environment(sharedVM)
         }
     }
 }

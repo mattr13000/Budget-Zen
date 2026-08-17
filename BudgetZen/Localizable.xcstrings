@@ -1,6 +1,19 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "# total transactions" : {
+
+    },
+    "%@ %lld €" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$lld €"
+          }
+        }
+      }
+    },
     "Add transaction" : {
       "localizations" : {
         "fr" : {
@@ -10,6 +23,15 @@
           }
         }
       }
+    },
+    "Add transction" : {
+
+    },
+    "Current balance: " : {
+
+    },
+    "Hello user" : {
+
     },
     "Home" : {
       "localizations" : {
@@ -21,9 +43,6 @@
         }
       }
     },
-    "Messages" : {
-
-    },
     "Statistics" : {
       "localizations" : {
         "fr" : {
@@ -33,6 +52,12 @@
           }
         }
       }
+    },
+    "Total incomes: " : {
+
+    },
+    "Total spendings: " : {
+
     },
     "Transactions" : {
       "localizations" : {

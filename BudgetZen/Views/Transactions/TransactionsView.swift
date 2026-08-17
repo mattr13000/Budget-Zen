@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct TransactionsView: View {
+    @Environment(SharedViewModel.self) var sharedVM
     var body: some View {
-        Text("Transactions")
+        
+        NavigationStack{
+            ScrollView {
+                ForEach(sharedVM.transactions) {
+                    transaction in
+                    TransactionCard(
+                        title: transaction.title,
+                        amount: transaction.amount,
+                        category: transaction.category,
+                        type: transaction.type,
+                        date: transaction.date
+                    )
+                }
+            }
+            .navigationTitle("Transactions")
+            
+        }
     }
 }
 
 #Preview {
     TransactionsView()
+        .environment(SharedViewModel())
 }

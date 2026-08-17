@@ -7,10 +7,13 @@
 
 import Foundation
 
+@Observable
 class SharedViewModel {
-    private var transactions: [Transaction]
+    var transactions: [Transaction]
     
     init() {
-        
+        transactions = Transaction.transactions
     }
+    
+    
 }
