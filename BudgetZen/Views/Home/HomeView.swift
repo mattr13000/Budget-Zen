@@ -8,16 +8,38 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Environment(SharedViewModel.self) var sharedVM
     var body: some View {
-        Text("Home")
-        Text("Hello user")
-        Text("Current balance: ")
-        Text("Total incomes: ")
-        Text("Total spendings: ")
-        Text("# total transactions")
+        NavigationStack{
+            VStack {
+                VStack {
+                    Text("Bonjour User")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Text(sharedVM.balanceText)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+               
+                HomeMainCard(balance: sharedVM.transactionTotal)
+                HStack(alignment: .center) {
+                    IncomesCard(incomeTotal: sharedVM.incomesTotal)
+                    SpendingsCard(spendingsTotal: sharedVM.spendingsTotal)
+                }
+                
+                Text("\(sharedVM.transactions.count) registered transactions.")
+                    .font(.title2)
+                    .padding(.top)
+                Spacer()
+            }
+            .navigationTitle("Budget Zen")
+
+            .padding()
+            
+        }
     }
 }
 
 #Preview {
     HomeView()
+        .environment(SharedViewModel())
 }
