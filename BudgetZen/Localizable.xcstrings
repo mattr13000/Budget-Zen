@@ -1,7 +1,7 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "# total transactions" : {
+    "-%@€" : {
 
     },
     "%@ %lld €" : {
@@ -13,6 +13,15 @@
           }
         }
       }
+    },
+    "%@€" : {
+
+    },
+    "%lld registered transactions." : {
+
+    },
+    "+%@€" : {
+
     },
     "Add transaction" : {
       "localizations" : {
@@ -27,10 +36,13 @@
     "Add transction" : {
 
     },
-    "Current balance: " : {
+    "Bonjour User" : {
 
     },
-    "Hello user" : {
+    "Budget Zen" : {
+
+    },
+    "Current balance:" : {
 
     },
     "Home" : {
@@ -53,10 +65,10 @@
         }
       }
     },
-    "Total incomes: " : {
+    "Total Incomes:" : {
 
     },
-    "Total spendings: " : {
+    "Total Spendings:" : {
 
     },
     "Transactions" : {

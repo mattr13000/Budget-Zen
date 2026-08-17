@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TabBarView: View {
+    
     var body: some View {
         TabView {
             Tab("Home", systemImage: "house") {
@@ -28,4 +29,5 @@ struct TabBarView: View {
 
 #Preview {
     TabBarView()
+        .environment(SharedViewModel())
 }

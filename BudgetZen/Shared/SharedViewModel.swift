@@ -30,4 +30,13 @@ class SharedViewModel {
     var transactionsCount: Int {
         transactions.count
     }
+    
+    var balanceText: String {
+        if spendingsTotal > incomesTotal {
+            return "Your balance is negative."
+        }
+        else {
+            return "Your balance is positive."
+        }
+    }
 }
