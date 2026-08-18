@@ -57,9 +57,6 @@ class SharedViewModel {
         transactions.count.formatted()
     }
     
-    
-    
-    
     var formattedHighestIncome: String {
         if let maxIncome = transactions
             .filter({$0.type == .income})
