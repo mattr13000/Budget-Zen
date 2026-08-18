@@ -18,32 +18,101 @@
 
     },
     "%lld registered transactions." : {
-
-    },
-    "+%@€" : {
-
-    },
-    "Add transaction" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajouter"
+            "value" : "%lld transactions enregistrés."
           }
         }
       }
     },
-    "Add transction" : {
+    "+%@€" : {
 
     },
-    "Bonjour User" : {
-
+    "Add transction" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajout transaction"
+          }
+        }
+      }
+    },
+    "Average spending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moyenne des dépenses"
+          }
+        }
+      }
+    },
+    "Balance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solde"
+          }
+        }
+      }
     },
     "Budget Zen" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Budget Zen"
+          }
+        }
+      }
     },
     "Current balance:" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solde actuel:"
+          }
+        }
+      }
+    },
+    "Hello User" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour User"
+          }
+        }
+      }
+    },
+    "Highest Income" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus grand revenu"
+          }
+        }
+      }
+    },
+    "Highest spending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus grande dépense"
+          }
+        }
+      }
     },
     "Home" : {
       "localizations" : {
@@ -51,6 +120,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accueil"
+          }
+        }
+      }
+    },
+    "Most used category" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégorie la plus utilisée"
           }
         }
       }
@@ -65,11 +145,80 @@
         }
       }
     },
+    "Total incomes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total des revenus"
+          }
+        }
+      }
+    },
+    "Total incomes count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de revenus"
+          }
+        }
+      }
+    },
     "Total Incomes:" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Revenus:"
+          }
+        }
+      }
+    },
+    "Total spendings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total des dépenses"
+          }
+        }
+      }
+    },
+    "Total spendings count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de dépenses"
+          }
+        }
+      }
     },
     "Total Spendings:" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Dépenses:"
+          }
+        }
+      }
+    },
+    "Total transactions count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre total de transactions"
+          }
+        }
+      }
     },
     "Transactions" : {
       "localizations" : {

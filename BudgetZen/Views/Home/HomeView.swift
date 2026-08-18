@@ -12,18 +12,18 @@ struct HomeView: View {
     var body: some View {
         NavigationStack{
             VStack {
-                VStack {
-                    Text("Bonjour User")
+                VStack(alignment: .leading) {
+                    Text("Hello User")
                         .font(.title)
                         .fontWeight(.bold)
                     Text(sharedVM.balanceText)
+                        .font(.title3)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-               
-                HomeMainCard(balance: sharedVM.transactionTotal)
+                HomeMainCard(balance: sharedVM.formattedTransactionsCount)
                 HStack(alignment: .center) {
-                    IncomesCard(incomeTotal: sharedVM.incomesTotal)
-                    SpendingsCard(spendingsTotal: sharedVM.spendingsTotal)
+                    IncomesCard(incomeTotal: sharedVM.formattedIncomesTotal)
+                    SpendingsCard(spendingsTotal: sharedVM.formattedSpendingsTotal)
                 }
                 
                 Text("\(sharedVM.transactions.count) registered transactions.")
@@ -32,7 +32,7 @@ struct HomeView: View {
                 Spacer()
             }
             .navigationTitle("Budget Zen")
-
+            
             .padding()
             
         }

@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct IncomesCard: View {
-    var incomeTotal: Int
+    var incomeTotal: String
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             VStack {
                 Text("Total Incomes:")
-                Text("+\(String(incomeTotal))€")
+                Text("+\(incomeTotal)€")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundStyle(.green)
@@ -29,5 +29,5 @@ struct IncomesCard: View {
 }
 
 #Preview {
-    IncomesCard(incomeTotal: 60)
+    IncomesCard(incomeTotal: "60")
 }
