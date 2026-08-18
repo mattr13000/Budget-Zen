@@ -18,7 +18,14 @@
 
     },
     "%lld registered transactions." : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld transactions enregistrés."
+          }
+        }
+      }
     },
     "+%@€" : {
 
@@ -34,16 +41,37 @@
       }
     },
     "Add transction" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une transaction"
+          }
+        }
+      }
     },
     "Bonjour User" : {
 
     },
     "Budget Zen" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Budget Zen"
+          }
+        }
+      }
     },
     "Current balance:" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solde actuel:"
+          }
+        }
+      }
     },
     "Home" : {
       "localizations" : {
@@ -66,10 +94,24 @@
       }
     },
     "Total Incomes:" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Revenus:"
+          }
+        }
+      }
     },
     "Total Spendings:" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Dépenses:"
+          }
+        }
+      }
     },
     "Transactions" : {
       "localizations" : {

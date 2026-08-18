@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AddTransactionView: View {
     var body: some View {
-        Text("Add transaction")
+        NavigationStack {
+            Form {
+                
+            }
+        }
     }
 }
 
