@@ -30,28 +30,37 @@
     "+%@€" : {
 
     },
-    "Add transaction" : {
-      "localizations" : {
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ajouter"
-          }
-        }
-      }
-    },
     "Add transction" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajouter une transaction"
+            "value" : "Ajout transaction"
           }
         }
       }
     },
-    "Bonjour User" : {
-
+    "Average spending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moyenne des dépenses"
+          }
+        }
+      }
+    },
+    "Balance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solde"
+          }
+        }
+      }
     },
     "Budget Zen" : {
       "localizations" : {
@@ -73,12 +82,55 @@
         }
       }
     },
+    "Hello User" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour User"
+          }
+        }
+      }
+    },
+    "Highest Income" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus grand revenu"
+          }
+        }
+      }
+    },
+    "Highest spending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus grande dépense"
+          }
+        }
+      }
+    },
     "Home" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accueil"
+          }
+        }
+      }
+    },
+    "Most used category" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégorie la plus utilisée"
           }
         }
       }
@@ -93,6 +145,28 @@
         }
       }
     },
+    "Total incomes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total des revenus"
+          }
+        }
+      }
+    },
+    "Total incomes count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de revenus"
+          }
+        }
+      }
+    },
     "Total Incomes:" : {
       "localizations" : {
         "fr" : {
@@ -103,12 +177,45 @@
         }
       }
     },
+    "Total spendings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total des dépenses"
+          }
+        }
+      }
+    },
+    "Total spendings count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de dépenses"
+          }
+        }
+      }
+    },
     "Total Spendings:" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total Dépenses:"
+          }
+        }
+      }
+    },
+    "Total transactions count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre total de transactions"
           }
         }
       }

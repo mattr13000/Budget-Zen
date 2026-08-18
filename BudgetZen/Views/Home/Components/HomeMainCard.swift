@@ -9,13 +9,13 @@ import SwiftUI
 
 struct HomeMainCard: View {
     
-    var balance: Int
+    var balance: String
     
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             VStack {
                 Text("Current balance:")
-                Text("\(String(balance))€")
+                Text("\(balance)€")
                     .font(.title)
                     .fontWeight(.bold)
             }
@@ -31,5 +31,5 @@ struct HomeMainCard: View {
 }
 
 #Preview {
-    HomeMainCard(balance: 50)
+    HomeMainCard(balance: "50")
 }

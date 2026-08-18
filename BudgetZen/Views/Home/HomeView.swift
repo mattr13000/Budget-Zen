@@ -20,10 +20,10 @@ struct HomeView: View {
                         .font(.title3)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                HomeMainCard(balance: sharedVM.transactionTotal)
+                HomeMainCard(balance: sharedVM.formattedTransactionsCount)
                 HStack(alignment: .center) {
-                    IncomesCard(incomeTotal: sharedVM.incomesTotal)
-                    SpendingsCard(spendingsTotal: sharedVM.spendingsTotal)
+                    IncomesCard(incomeTotal: sharedVM.formattedIncomesTotal)
+                    SpendingsCard(spendingsTotal: sharedVM.formattedSpendingsTotal)
                 }
                 
                 Text("\(sharedVM.transactions.count) registered transactions.")

@@ -1,5 +1,5 @@
 //
-//  IncomeCard.swift
+//  AdviceCard.swift
 //  BudgetZen
 //
 //  Created by Apprenant 77 on 18/08/2026.
@@ -7,16 +7,14 @@
 
 import SwiftUI
 
-struct IncomesCard: View {
-    var incomeTotal: String
+struct AdviceCard: View {
+    var advice: String = "Ici un futur avis (ceci n'est pas un conseil financier)"
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             VStack {
-                Text("Total Incomes:")
-                Text("+\(incomeTotal)€")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundStyle(.green)
+                Text(advice)
+                    .font(.title3)
+
             }
             .padding()
             
@@ -29,5 +27,5 @@ struct IncomesCard: View {
 }
 
 #Preview {
-    IncomesCard(incomeTotal: "60")
+    AdviceCard()
 }

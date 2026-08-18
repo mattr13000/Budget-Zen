@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct StatisticsView: View {
+    
+    @Environment(SharedViewModel.self) var sharedVM
+    
     var body: some View {
         NavigationStack {
-            List {
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                Text("Stat")
-                
+            VStack {
+                List(sharedVM.statistics) {
+                    statistic in
+                    StatisticsListItem(label: statistic.label, formattedValue: statistic.displayValue)
+                }
+            AdviceCard()
+                Spacer()
             }
             .navigationTitle("Statistics")
         }
@@ -30,4 +28,5 @@ struct StatisticsView: View {
 
 #Preview {
     StatisticsView()
+        .environment(SharedViewModel())
 }
