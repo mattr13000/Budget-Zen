@@ -15,6 +15,17 @@ class SharedViewModel {
         transactions = Transaction.transactions
     }
     
+    func registerTransaction(
+        transactionTitle: String,
+        amount: Int,
+        date: Date,
+        category: Category,
+        transactionType: TransactionType,
+    )
+    {
+        transactions.append(Transaction(title: transactionTitle, amount: amount, category: category, type: transactionType, date: date))
+    }
+    
     var balance: Int {
         transactions.reduce(0){$0 + $1.amount}
     }

@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "-%@€" : {
 
     },
@@ -30,12 +33,42 @@
     "+%@€" : {
 
     },
+    "Add a transaction" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une transaction"
+          }
+        }
+      }
+    },
+    "Add the transaction" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez la transaction"
+          }
+        }
+      }
+    },
     "Add transction" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajout transaction"
+          }
+        }
+      }
+    },
+    "Amount" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montant"
           }
         }
       }
@@ -72,12 +105,52 @@
         }
       }
     },
+    "Category" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégorie"
+          }
+        }
+      }
+    },
     "Current balance:" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solde actuel:"
+          }
+        }
+      }
+    },
+    "Date" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        }
+      }
+    },
+    "Enter a label" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez un label"
+          }
+        }
+      }
+    },
+    "Enter an amount" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez un montant"
           }
         }
       }
@@ -120,6 +193,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accueil"
+          }
+        }
+      }
+    },
+    "Label" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label"
           }
         }
       }
@@ -226,6 +309,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Transactions"
+          }
+        }
+      }
+    },
+    "Type" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
           }
         }
       }
